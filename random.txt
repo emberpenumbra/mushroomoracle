@@ -1,0 +1,4 @@
+function randomPage() {
+var r = Math.floor(Math.random() * 27) + 1;
+window.location = "moPage_" + r + ".html";
+}
